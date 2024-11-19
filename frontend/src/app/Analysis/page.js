@@ -1,5 +1,7 @@
+// app/page.js
 'use client';
 import { useState, useEffect } from "react";
+import LiveNewsSection from "./Components/LiveNewsSection";
 
 export default function AnalysisPage() {
   const [historicalAnalysis, setHistoricalAnalysis] = useState("");
@@ -12,18 +14,20 @@ export default function AnalysisPage() {
         setLoading(true);
         setError(null);
 
-        console.log('Fetching analysis...');
-        const response = await fetch('/api/auth/historical-analysis');
-        console.log('Response status:', response.status);
+        console.log("Fetching analysis...");
+        const response = await fetch("/api/auth/historical-analysis");
+        console.log("Response status:", response.status);
 
         if (!response.ok) {
           const errorData = await response.json().catch(() => ({}));
-          throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
+          throw new Error(
+            errorData.error || `HTTP error! status: ${response.status}`
+          );
         }
 
         const data = await response.json();
-        console.log('Received data:', data);
-        
+        console.log("Received data:", data);
+
         if (!data.analysis) {
           throw new Error("No analysis data received");
         }
@@ -48,7 +52,8 @@ export default function AnalysisPage() {
           Classification
         </h2>
         <p className="text-[#3F72AF]">
-          This is the classification section. Add your content related to classification here.
+          This is the classification section. Add your content related to
+          classification here.
         </p>
       </div>
 
@@ -69,8 +74,8 @@ export default function AnalysisPage() {
             {error && (
               <div className="text-red-600 p-4">
                 <p>Error: {error}</p>
-                <button 
-                  onClick={() => window.location.reload()} 
+                <button
+                  onClick={() => window.location.reload()}
                   className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
                 >
                   Retry
@@ -85,12 +90,7 @@ export default function AnalysisPage() {
 
         {/* Bottom Right: Live News Channel */}
         <div className="bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-semibold text-[#112D4E] mb-4">
-            Live News Channel
-          </h2>
-          <p className="text-[#3F72AF]">
-            This is the live news channel section. Add live feeds or content here.
-          </p>
+          <LiveNewsSection />
         </div>
       </div>
     </div>
