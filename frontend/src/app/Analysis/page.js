@@ -1,7 +1,7 @@
-// app/page.js
 'use client';
 import { useState, useEffect } from "react";
 import LiveNewsSection from "./Components/LiveNewsSection";
+import ClassificationToggle from "./Components/ClassificationToggle";
 
 export default function AnalysisPage() {
   const [historicalAnalysis, setHistoricalAnalysis] = useState("");
@@ -13,10 +13,7 @@ export default function AnalysisPage() {
       try {
         setLoading(true);
         setError(null);
-
-        console.log("Fetching analysis...");
         const response = await fetch("/api/auth/historical-analysis");
-        console.log("Response status:", response.status);
 
         if (!response.ok) {
           const errorData = await response.json().catch(() => ({}));
@@ -26,7 +23,6 @@ export default function AnalysisPage() {
         }
 
         const data = await response.json();
-        console.log("Received data:", data);
 
         if (!data.analysis) {
           throw new Error("No analysis data received");
@@ -45,51 +41,47 @@ export default function AnalysisPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#F9F7F7] p-8 flex flex-col lg:flex-row gap-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#E4F0F6] to-[#D1E8F0] p-8 flex flex-col lg:flex-row gap-4">
       {/* Left Side: Classification */}
-      <div className="flex-1 bg-white rounded-lg shadow-lg p-6">
-        <h2 className="text-2xl font-semibold text-[#112D4E] mb-4">
-          Classification
-        </h2>
-        <p className="text-[#3F72AF]">
-          This is the classification section. Add your content related to
-          classification here.
-        </p>
+      <div className="flex-1 bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/30 p-6 transform transition-all hover:scale-[1.02]">
+       <ClassificationToggle/>
       </div>
 
       {/* Right Side: Historical Analysis and Live News Channel */}
       <div className="flex flex-col gap-4 w-full lg:w-1/3">
         {/* Top Right: Historical Analysis */}
-        <div className="flex-1 bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-semibold text-[#112D4E] mb-4">
+        <div className="flex-1 bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/30 p-6 transform transition-all hover:scale-[1.02]">
+          <h2 className="text-3xl font-extrabold text-[#1A5F7A] mb-4 tracking-wide">
             Historical Analysis
           </h2>
-
-          <div className="text-[#3F72AF]">
+          
+          <div className="text-[#2C7DA0] font-medium">
             {loading && (
               <div className="flex items-center justify-center p-4">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#3F72AF]"></div>
+                <div className="animate-spin rounded-full h-10 w-10 border-b-3 border-[#2C7DA0]"></div>
               </div>
             )}
             {error && (
-              <div className="text-red-600 p-4">
-                <p>Error: {error}</p>
+              <div className="text-red-600 p-4 bg-red-50 rounded-lg">
+                <p className="font-semibold">Error: {error}</p>
                 <button
                   onClick={() => window.location.reload()}
-                  className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                  className="mt-2 px-4 py-2 bg-[#2C7DA0] text-white rounded-md hover:bg-[#1A5F7A] transition-colors"
                 >
                   Retry
                 </button>
               </div>
             )}
             {!loading && !error && historicalAnalysis && (
-              <div className="whitespace-pre-line">{historicalAnalysis}</div>
+              <div className="whitespace-pre-line leading-relaxed">
+                {historicalAnalysis}
+              </div>
             )}
           </div>
         </div>
 
         {/* Bottom Right: Live News Channel */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/30 p-6 transform transition-all hover:scale-[1.02]">
           <LiveNewsSection />
         </div>
       </div>
