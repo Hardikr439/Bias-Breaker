@@ -1,0 +1,4 @@
+
+Epoch: 1
+lr_plm: 2e-05
+lr_other: 0.001
