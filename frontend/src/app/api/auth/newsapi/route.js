@@ -1,10 +1,8 @@
 // app/api/auth/newsapi/route.js
 import { NextResponse } from 'next/server';
 
-// Add this line to explicitly set the runtime
 export const runtime = 'edge';
 
-// Make sure the function is named GET and exported correctly
 export async function GET(request) {
   if (!process.env.NEWS_API_KEY) {
     return NextResponse.json(
@@ -14,9 +12,19 @@ export async function GET(request) {
   }
 
   try {
+    const { searchParams } = new URL(request.url);
+    const query = searchParams.get('query');
+
+    if (!query) {
+      return NextResponse.json(
+        { error: "Query parameter is required" },
+        { status: 400 }
+      );
+    }
+
     const response = await fetch(
       `https://newsapi.org/v2/everything?` +
-      `q=(Israel OR Palestine OR Gaza)&` +
+      `q=${encodeURIComponent(query)}&` +
       `language=en&` +
       `sortBy=publishedAt&` +
       `pageSize=10`,
@@ -28,7 +36,7 @@ export async function GET(request) {
     );
 
     const data = await response.json();
-   
+
     if (data.status !== 'ok') {
       throw new Error(data.message || 'Failed to fetch news');
     }
@@ -42,7 +50,6 @@ export async function GET(request) {
       imageUrl: article.urlToImage
     }));
 
-    // Set appropriate CORS headers
     return new NextResponse(JSON.stringify({ news: formattedNews }), {
       status: 200,
       headers: {

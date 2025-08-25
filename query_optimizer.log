@@ -1,0 +1,937 @@
+2025-05-10 01:02:38,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:02:38,618 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:02:38,650 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:02:53,521 - WARNING -  * Debugger is active!
+2025-05-10 01:02:53,529 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:02:53,759 - INFO - 127.0.0.1 - - [10/May/2025 01:02:53] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 01:02:53,811 - INFO - Optimizing query: war
+2025-05-10 01:02:57,531 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-10 01:04:31,047 - INFO -  * Detected change in 'C:\\Users\\ranah\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\transformers\\models\\gpt_bigcode\\modeling_gpt_bigcode.py', reloading
+2025-05-10 01:04:33,746 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:04:47,544 - WARNING -  * Debugger is active!
+2025-05-10 01:04:47,549 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:04:53,082 - INFO - 127.0.0.1 - - [10/May/2025 01:04:53] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 01:04:53,135 - INFO - Optimizing query: war
+2025-05-10 01:04:58,101 - INFO - Query optimization completed in 4.97s: Format: Just return the optimized query, no additional text. We are looking for a specific keyword.
+2025-05-10 01:04:58,103 - INFO - Original query: war
+2025-05-10 01:04:58,104 - INFO - Optimized query: Format: Just return the optimized query, no additional text. We are looking for a specific keyword.
+2025-05-10 01:04:58,107 - INFO - Scraping new tweets for query: Format: Just return the optimized query, no additional text. We are looking for a specific keyword.
+2025-05-10 01:05:38,434 - ERROR - No tweets retrieved from scraper
+2025-05-10 01:05:38,435 - INFO - 127.0.0.1 - - [10/May/2025 01:05:38] "[35m[1mPOST /api/process HTTP/1.1[0m" 500 -
+2025-05-10 01:05:54,332 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:05:54,332 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:05:54,333 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:05:58,127 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:06:12,850 - WARNING -  * Debugger is active!
+2025-05-10 01:06:12,855 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:07:18,522 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:18,523 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:21,267 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:07:35,530 - WARNING -  * Debugger is active!
+2025-05-10 01:07:35,534 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:07:36,602 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:36,603 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:36,604 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:39,301 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:07:52,862 - WARNING -  * Debugger is active!
+2025-05-10 01:07:52,865 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:07:54,039 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:54,040 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:07:56,356 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:08:10,972 - WARNING -  * Debugger is active!
+2025-05-10 01:08:10,979 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:08:11,190 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:08:11,191 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:08:11,193 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:08:13,647 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:08:36,813 - INFO - Optimizing query: war
+2025-05-10 01:08:43,057 - INFO - Query optimization completed in 6.24s: Results: You'll be able to compare some of the search terms in your search. You can also search for different keyword terms from other
+2025-05-10 01:08:43,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:08:43,078 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:08:43,100 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:08:56,809 - INFO - Optimizing query: war
+2025-05-10 01:09:01,425 - INFO - Query optimization completed in 4.62s: Format: Just return the optimized query, no additional text.
+2025-05-10 01:09:01,435 - WARNING -  * Debugger is active!
+2025-05-10 01:09:01,440 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:14:36,805 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:14:36,807 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:14:40,442 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:14:56,422 - INFO - Optimizing query: war
+2025-05-10 01:15:02,686 - INFO - Query optimization completed in 6.26s: craft-mods-1.10.2-3.0.1-snapshot-8.jar FMLPreInitialization: LoadingPlugin(TM) from Forge.preloader.Preloader-4.5.4-15.3-18.13-universal.zip FMLPluginLoader(Loader) classpath: Mantle-MC1 (particle-pck-47.6.31-unlimited).jar
+2025-05-10 01:15:02,693 - WARNING -  * Debugger is active!
+2025-05-10 01:15:02,697 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:15:29,327 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:15:29,330 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:15:32,246 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:15:47,556 - INFO - Optimizing query: war
+2025-05-10 01:15:52,346 - INFO - Query optimization completed in 4.79s: "war"
+:
+.
+, :
+ ( :search, :query )
+'
+-
+( :title, "War" )
+2025-05-10 01:15:52,353 - WARNING -  * Debugger is active!
+2025-05-10 01:15:52,360 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:16:27,639 - INFO - Optimizing query: war
+2025-05-10 01:16:32,838 - INFO - Query optimization completed in 5.20s: .
+,.
+-
+:. -
+ (. )
+(.,.. ( ) ). /.
+
+
+Searching
+2025-05-10 01:16:32,849 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:16:32,850 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:16:32,865 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:16:49,211 - INFO - Optimizing query: war
+2025-05-10 01:16:54,180 - INFO - Query optimization completed in 4.97s: War
+, war, wars, etc.
+. The search results will be displayed in a separate tab, and you can also view the results by clicking
+2025-05-10 01:16:54,193 - WARNING -  * Debugger is active!
+2025-05-10 01:16:54,196 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:19:53,865 - INFO - Optimizing query: war
+2025-05-10 01:20:00,361 - INFO - Query optimization completed in 6.49s: "The first thing I noticed was that the word 'fancy' is not in any of my other words
+2025-05-10 01:20:00,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:20:00,376 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:20:00,393 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:20:16,054 - INFO - Optimizing query: war
+2025-05-10 01:20:21,105 - INFO - Query optimization completed in 5.05s: "The most important thing to remember is that you can't just say 'I'm a hacker' or 'You're an idiot
+2025-05-10 01:20:21,114 - WARNING -  * Debugger is active!
+2025-05-10 01:20:21,118 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:20:42,303 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:20:42,305 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:20:42,306 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:20:44,205 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:20:59,671 - INFO - Optimizing query: war
+2025-05-10 01:21:05,053 - INFO - Query optimization completed in 5.38s: "The first time I saw the movie, I
+2025-05-10 01:21:05,062 - WARNING -  * Debugger is active!
+2025-05-10 01:21:05,068 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:21:08,607 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:21:08,608 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:21:11,053 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:21:45,446 - INFO - Optimizing query: war
+2025-05-10 01:21:49,976 - INFO - Query optimization completed in 4.53s: Twitter: @twitter
+.
+2025-05-10 01:21:49,999 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:21:50,000 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:21:50,023 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:22:04,399 - INFO - Optimizing query: war
+2025-05-10 01:22:10,706 - INFO - Query optimization completed in 6.31s: Twitter: @twitter
+.
+2025-05-10 01:22:10,715 - WARNING -  * Debugger is active!
+2025-05-10 01:22:10,718 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:22:14,569 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:22:14,570 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:22:16,807 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:22:31,040 - INFO - Optimizing query: war
+2025-05-10 01:22:34,917 - INFO - Query optimization completed in 3.88s: "Twitter" is a
+2025-05-10 01:22:34,923 - WARNING -  * Debugger is active!
+2025-05-10 01:22:34,927 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:22:39,800 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:22:39,801 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:22:39,802 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:22:41,886 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:22:54,848 - INFO - Optimizing query: war
+2025-05-10 01:22:59,406 - INFO - Query optimization completed in 4.56s: !!
+
+'The key is
+2025-05-10 01:22:59,414 - WARNING -  * Debugger is active!
+2025-05-10 01:22:59,419 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:23:03,952 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:23:03,954 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:23:03,955 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:23:06,530 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:23:19,896 - INFO - Optimizing query: war
+2025-05-10 01:23:24,345 - INFO - Query optimization completed in 4.45s: war
+2025-05-10 01:23:24,352 - WARNING -  * Debugger is active!
+2025-05-10 01:23:24,357 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:23:44,723 - INFO - Optimizing query: war
+2025-05-10 01:23:48,461 - INFO - Query optimization completed in 3.74s: war
+2025-05-10 01:23:48,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:23:48,478 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:23:48,496 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:24:02,577 - INFO - Optimizing query: war
+2025-05-10 01:24:06,667 - INFO - Query optimization completed in 4.09s: war
+2025-05-10 01:24:06,674 - WARNING -  * Debugger is active!
+2025-05-10 01:24:06,678 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:24:19,320 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:24:19,322 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:24:19,322 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:24:21,536 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:24:52,104 - INFO - Optimizing query: russia ukraine war
+2025-05-10 01:24:56,161 - INFO - Query optimization completed in 4.06s: russia ukraine war
+2025-05-10 01:24:56,186 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:24:56,187 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:24:56,212 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:25:10,032 - INFO - Optimizing query: russia ukraine war
+2025-05-10 01:25:13,948 - INFO - Query optimization completed in 3.92s: russia ukraine war
+2025-05-10 01:25:13,956 - WARNING -  * Debugger is active!
+2025-05-10 01:25:13,961 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:29:37,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:29:37,321 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:29:37,347 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:29:55,742 - WARNING -  * Debugger is active!
+2025-05-10 01:29:55,746 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:29:55,795 - INFO - 127.0.0.1 - - [10/May/2025 01:29:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 01:29:55,832 - ERROR - Error in query pipeline: process_query() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "c:\Learn\IPD\backend\server\server.py", line 97, in process_query_pipeline
+    search_query, storage_key = process_query(query)
+                                ^^^^^^^^^^^^^^^^^^^^
+TypeError: process_query() takes 0 positional arguments but 1 was given
+2025-05-10 01:29:55,833 - INFO - 127.0.0.1 - - [10/May/2025 01:29:55] "[35m[1mPOST /api/process HTTP/1.1[0m" 500 -
+2025-05-10 01:31:03,855 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:03,857 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:03,858 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:06,234 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:31:23,088 - WARNING -  * Debugger is active!
+2025-05-10 01:31:23,092 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:31:33,592 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:33,594 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:33,594 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:31:36,062 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:31:50,753 - WARNING -  * Debugger is active!
+2025-05-10 01:31:50,759 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:33:00,055 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:33:00,056 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:33:00,057 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:33:02,392 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:33:17,223 - WARNING -  * Debugger is active!
+2025-05-10 01:33:17,227 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:33:17,386 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:33:17,387 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:33:19,982 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:33:34,859 - WARNING -  * Debugger is active!
+2025-05-10 01:33:34,865 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:33:35,156 - INFO - 127.0.0.1 - - [10/May/2025 01:33:35] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 01:33:35,619 - ERROR - Error in query pipeline: process_query() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "c:\Learn\IPD\backend\server\server.py", line 97, in process_query_pipeline
+    search_query, storage_key = process_query(query)
+                                ^^^^^^^^^^^^^^^^^^^^
+TypeError: process_query() takes 0 positional arguments but 1 was given
+2025-05-10 01:33:35,620 - INFO - 127.0.0.1 - - [10/May/2025 01:33:35] "[35m[1mPOST /api/process HTTP/1.1[0m" 500 -
+2025-05-10 01:34:32,065 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:34:32,066 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:34:32,066 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:34:34,389 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:34:50,288 - WARNING -  * Debugger is active!
+2025-05-10 01:34:50,293 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:35:22,601 - INFO - 127.0.0.1 - - [10/May/2025 01:35:22] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 01:35:22,658 - INFO - Processing query: war
+2025-05-10 01:35:22,659 - INFO - Query processing completed in 0.00s
+2025-05-10 01:35:22,659 - INFO - Original query: war
+2025-05-10 01:35:22,660 - INFO - Search query: war
+2025-05-10 01:35:22,661 - INFO - Scraping new tweets for query: war
+2025-05-10 01:39:57,569 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:39:57,569 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:39:57,594 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:40:07,434 - WARNING -  * Debugger is active!
+2025-05-10 01:40:07,439 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:40:20,391 - INFO - 127.0.0.1 - - [10/May/2025 01:40:20] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:40:21,128 - INFO - 127.0.0.1 - - [10/May/2025 01:40:21] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:41:51,978 - INFO - 127.0.0.1 - - [10/May/2025 01:41:51] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:41:52,297 - INFO - 127.0.0.1 - - [10/May/2025 01:41:52] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:43:04,935 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:43:04,937 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:43:06,742 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:43:17,181 - WARNING -  * Debugger is active!
+2025-05-10 01:43:17,186 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:43:17,704 - INFO - 127.0.0.1 - - [10/May/2025 01:43:17] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:43:18,401 - INFO - 127.0.0.1 - - [10/May/2025 01:43:18] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:43:48,964 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:43:48,966 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:43:51,062 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:44:00,853 - WARNING -  * Debugger is active!
+2025-05-10 01:44:00,857 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:44:01,109 - INFO - 127.0.0.1 - - [10/May/2025 01:44:01] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:44:01,433 - INFO - 127.0.0.1 - - [10/May/2025 01:44:01] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:44:10,455 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:44:10,457 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:44:12,277 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:44:22,085 - WARNING -  * Debugger is active!
+2025-05-10 01:44:22,088 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:48:57,960 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:48:57,962 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:48:57,963 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:49:00,168 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:49:10,639 - WARNING -  * Debugger is active!
+2025-05-10 01:49:10,642 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:49:15,823 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:49:15,826 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:49:17,974 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:49:28,075 - WARNING -  * Debugger is active!
+2025-05-10 01:49:28,081 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:49:31,049 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:49:31,051 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:49:31,052 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:49:32,310 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:49:42,269 - WARNING -  * Debugger is active!
+2025-05-10 01:49:42,274 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:50:02,002 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:50:02,003 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:50:02,004 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 01:50:04,191 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:53:21,983 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:53:21,983 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:53:21,993 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:53:31,466 - WARNING -  * Debugger is active!
+2025-05-10 01:53:31,472 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:53:37,074 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\load_data.py', reloading
+2025-05-10 01:53:37,075 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\log_odds_ratio.py', reloading
+2025-05-10 01:53:37,076 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\predict_ideology.py', reloading
+2025-05-10 01:53:37,076 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\predict_relevence.py', reloading
+2025-05-10 01:53:37,077 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\text_helper.py', reloading
+2025-05-10 01:53:37,078 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\predict.py', reloading
+2025-05-10 01:53:37,078 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\train_relevance.py', reloading
+2025-05-10 01:53:37,079 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\TweetNormalizer.py', reloading
+2025-05-10 01:53:37,079 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\train_ideology.py', reloading
+2025-05-10 01:53:37,080 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\parameter.py', reloading
+2025-05-10 01:53:37,080 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\tools\\MITweet\\model.py', reloading
+2025-05-10 01:53:38,991 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:53:48,612 - WARNING -  * Debugger is active!
+2025-05-10 01:53:48,614 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:54:11,699 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:54:11,701 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:54:11,702 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:54:13,146 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:55:59,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 01:55:59,806 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:55:59,827 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:56:09,854 - WARNING -  * Debugger is active!
+2025-05-10 01:56:09,857 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:56:32,255 - ERROR - Failed to fetch topics: cannot import name 'get_all_topics_from_db' from 'db' (c:\Learn\IPD\backend\server\db.py)
+2025-05-10 01:56:32,257 - INFO - 127.0.0.1 - - [10/May/2025 01:56:32] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:56:32,522 - ERROR - Failed to fetch topics: cannot import name 'get_all_topics_from_db' from 'db' (c:\Learn\IPD\backend\server\db.py)
+2025-05-10 01:56:32,524 - INFO - 127.0.0.1 - - [10/May/2025 01:56:32] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:57:39,297 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:57:39,298 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:57:39,299 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 01:57:41,304 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 01:57:50,708 - WARNING -  * Debugger is active!
+2025-05-10 01:57:50,711 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 01:57:50,988 - INFO - 127.0.0.1 - - [10/May/2025 01:57:50] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 01:57:51,219 - INFO - 127.0.0.1 - - [10/May/2025 01:57:51] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:00:49,384 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:00:49,385 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:00:51,823 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:01:02,224 - WARNING -  * Debugger is active!
+2025-05-10 02:01:02,228 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:01:02,534 - INFO - 127.0.0.1 - - [10/May/2025 02:01:02] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:01:02,825 - INFO - 127.0.0.1 - - [10/May/2025 02:01:02] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:01:43,457 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:01:43,459 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:01:45,037 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:01:54,811 - WARNING -  * Debugger is active!
+2025-05-10 02:01:54,815 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:02:00,955 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:02:00,957 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:02:03,365 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:03:11,781 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:03:11,782 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:03:11,791 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:03:21,513 - WARNING -  * Debugger is active!
+2025-05-10 02:03:21,517 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:03:21,864 - INFO - 127.0.0.1 - - [10/May/2025 02:03:21] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:03:22,119 - INFO - 127.0.0.1 - - [10/May/2025 02:03:22] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:05:05,827 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:05:05,828 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:05:07,738 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:05:16,735 - WARNING -  * Debugger is active!
+2025-05-10 02:05:16,739 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:05:22,737 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:05:22,739 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:05:22,739 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:05:24,208 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:05:34,153 - WARNING -  * Debugger is active!
+2025-05-10 02:05:34,157 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:05:49,649 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:05:49,650 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:05:49,651 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:05:51,734 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:06:01,073 - WARNING -  * Debugger is active!
+2025-05-10 02:06:01,076 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:06:22,103 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:06:22,105 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:06:22,105 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:06:23,503 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:06:33,830 - WARNING -  * Debugger is active!
+2025-05-10 02:06:33,834 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:06:33,862 - ERROR - Failed to fetch topics: cannot import name 'get_all_topics_from_db' from 'db' (c:\Learn\IPD\backend\server\db.py)
+2025-05-10 02:06:33,866 - INFO - 127.0.0.1 - - [10/May/2025 02:06:33] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:06:33,870 - ERROR - Failed to fetch topics: cannot import name 'get_all_topics_from_db' from 'db' (c:\Learn\IPD\backend\server\db.py)
+2025-05-10 02:06:33,871 - INFO - 127.0.0.1 - - [10/May/2025 02:06:33] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:07:43,628 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:07:43,629 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:07:43,630 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:07:44,366 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:07:44,367 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:07:45,987 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:07:55,537 - WARNING -  * Debugger is active!
+2025-05-10 02:07:55,540 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:07:56,526 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:07:56,527 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:07:56,528 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:07:57,948 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:08:07,582 - WARNING -  * Debugger is active!
+2025-05-10 02:08:07,585 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:08:09,793 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:08:09,794 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:08:11,869 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:08:20,762 - INFO - Optimizing query: war
+2025-05-10 02:08:26,029 - INFO - Query optimization completed in 5.27s: .
+ ('war')
+,'wars ','the '
+:'War'=>'The'+'is a keyword
+2025-05-10 02:08:26,035 - WARNING -  * Debugger is active!
+2025-05-10 02:08:26,038 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:08:41,364 - INFO - 127.0.0.1 - - [10/May/2025 02:08:41] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:08:41,696 - INFO - 127.0.0.1 - - [10/May/2025 02:08:41] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:09:29,065 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:09:29,066 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:09:31,442 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:09:41,117 - INFO - Optimizing query: war
+2025-05-10 02:09:46,227 - INFO - Query optimization completed in 5.11s: Format: Just return the optimized query, no additional text.
+2025-05-10 02:09:46,247 - WARNING -  * Debugger is active!
+2025-05-10 02:09:46,260 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:09:46,750 - INFO - 127.0.0.1 - - [10/May/2025 02:09:46] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:09:47,343 - INFO - 127.0.0.1 - - [10/May/2025 02:09:47] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:09:53,222 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:09:53,223 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:09:53,253 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:09:53,255 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:09:55,122 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:19:00,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:19:00,726 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:19:00,747 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:19:10,393 - WARNING -  * Debugger is active!
+2025-05-10 02:19:10,397 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:19:10,632 - INFO - 127.0.0.1 - - [10/May/2025 02:19:10] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:19:10,988 - INFO - 127.0.0.1 - - [10/May/2025 02:19:10] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:19:34,670 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:19:34,671 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:19:34,672 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:19:37,238 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:19:46,747 - WARNING -  * Debugger is active!
+2025-05-10 02:19:46,750 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:19:47,020 - INFO - 127.0.0.1 - - [10/May/2025 02:19:47] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:19:47,368 - INFO - 127.0.0.1 - - [10/May/2025 02:19:47] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:20:35,127 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:20:35,128 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:20:35,129 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:20:35,130 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:20:35,131 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:20:36,717 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:20:46,534 - WARNING -  * Debugger is active!
+2025-05-10 02:20:46,537 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:20:59,471 - INFO - 127.0.0.1 - - [10/May/2025 02:20:59] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:20:59,807 - INFO - 127.0.0.1 - - [10/May/2025 02:20:59] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:21:44,866 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:21:44,868 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:21:46,839 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:21:55,908 - WARNING -  * Debugger is active!
+2025-05-10 02:21:55,911 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:22:06,724 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:22:06,725 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:22:06,725 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:22:08,323 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:22:17,684 - WARNING -  * Debugger is active!
+2025-05-10 02:22:17,687 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:22:32,286 - INFO - 127.0.0.1 - - [10/May/2025 02:22:32] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:22:32,792 - INFO - Processing query: war
+2025-05-10 02:22:32,793 - INFO - Query processing completed in 0.00s
+2025-05-10 02:22:32,793 - INFO - Original query: war
+2025-05-10 02:22:32,794 - INFO - Search query: war
+2025-05-10 02:22:32,797 - INFO - Scraping new tweets for query: war
+2025-05-10 02:23:19,239 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:23:19,240 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:23:19,253 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:23:29,279 - WARNING -  * Debugger is active!
+2025-05-10 02:23:29,282 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:24:22,681 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:24:22,683 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\db.py', reloading
+2025-05-10 02:24:24,287 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:24:33,884 - WARNING -  * Debugger is active!
+2025-05-10 02:24:33,887 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:24:34,598 - INFO - 127.0.0.1 - - [10/May/2025 02:24:34] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:24:34,668 - INFO - Processing query: war
+2025-05-10 02:24:34,668 - INFO - Query processing completed in 0.00s
+2025-05-10 02:24:34,668 - INFO - Original query: war
+2025-05-10 02:24:34,668 - INFO - Search query: war
+2025-05-10 02:24:34,671 - INFO - Scraping new tweets for query: war
+2025-05-10 02:24:37,896 - ERROR - Error in query pipeline: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Learn\IPD\backend\server\server.py", line 110, in process_query_pipeline
+    tweets = run_scraper_for_query(search_query, SCRAPER_USERNAME, SCRAPER_PASSWORD, max_tweets=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Learn\IPD\backend\server\scraper_runner.py", line 17, in run_scraper_for_query
+    scraper.login()
+  File "c:\Learn\IPD\backend\server\scraper_file.py", line 231, in login
+    self.driver.maximize_window()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 506, in maximize_window
+    self.execute(command, None)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 118, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-05-10 02:24:38,189 - INFO - 127.0.0.1 - - [10/May/2025 02:24:38] "[35m[1mPOST /api/process HTTP/1.1[0m" 500 -
+2025-05-10 02:33:37,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:33:37,950 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:33:37,960 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:33:48,878 - WARNING -  * Debugger is active!
+2025-05-10 02:33:48,881 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:33:49,148 - INFO - 127.0.0.1 - - [10/May/2025 02:33:49] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:33:49,386 - INFO - 127.0.0.1 - - [10/May/2025 02:33:49] "GET /api/topics HTTP/1.1" 200 -
+2025-05-10 02:34:32,327 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\scraper_runner.py', reloading
+2025-05-10 02:34:32,328 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\scraper_runner.py', reloading
+2025-05-10 02:34:34,851 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:39:18,363 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:54:14,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:54:14,937 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:54:14,952 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:54:25,012 - WARNING -  * Debugger is active!
+2025-05-10 02:54:25,015 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:54:25,049 - INFO - 127.0.0.1 - - [10/May/2025 02:54:25] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:54:25,242 - INFO - Processing query: protest
+2025-05-10 02:54:25,242 - INFO - Query processing completed in 0.00s
+2025-05-10 02:54:25,242 - INFO - Original query: protest
+2025-05-10 02:54:25,242 - INFO - Search query: protest
+2025-05-10 02:54:25,245 - INFO - Scraping new tweets for query: protest
+2025-05-10 03:03:51,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 03:03:51,892 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:03:51,904 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 03:04:01,552 - WARNING -  * Debugger is active!
+2025-05-10 03:04:01,555 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 03:04:01,609 - INFO - 127.0.0.1 - - [10/May/2025 03:04:01] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:05:04,006 - INFO - 127.0.0.1 - - [10/May/2025 03:05:04] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:05:04,110 - INFO - Processing query: protest
+2025-05-10 03:05:04,111 - INFO - Query processing completed in 0.00s
+2025-05-10 03:05:04,111 - INFO - Original query: protest
+2025-05-10 03:05:04,112 - INFO - Search query: protest
+2025-05-10 03:05:04,116 - INFO - Scraping new tweets for query: protest
+2025-05-10 03:10:14,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 03:10:14,336 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:10:14,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 03:10:25,505 - WARNING -  * Debugger is active!
+2025-05-10 03:10:25,510 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 03:10:25,638 - INFO - 127.0.0.1 - - [10/May/2025 03:10:25] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:10:59,765 - INFO - 127.0.0.1 - - [10/May/2025 03:10:59] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:11:55,631 - INFO - 127.0.0.1 - - [10/May/2025 03:11:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:11:56,099 - INFO - Processing query: protest
+2025-05-10 03:11:56,102 - INFO - Query processing completed in 0.00s
+2025-05-10 03:11:56,103 - INFO - Original query: protest
+2025-05-10 03:11:56,104 - INFO - Search query: protest
+2025-05-10 03:11:56,106 - INFO - Scraping new tweets for query: protest
+2025-05-10 03:12:01,676 - ERROR - Error in query pipeline: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Learn\IPD\backend\server\server.py", line 110, in process_query_pipeline
+    tweets = run_scraper_for_query(search_query, SCRAPER_USERNAME, SCRAPER_PASSWORD, max_tweets=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Learn\IPD\backend\server\scraper_runner.py", line 17, in run_scraper_for_query
+    scraper.login()
+  File "c:\Learn\IPD\backend\server\scraper_file.py", line 232, in login
+    self.driver.get(TWITTER_LOGIN_URL)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 118, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-05-10 03:12:01,688 - INFO - 127.0.0.1 - - [10/May/2025 03:12:01] "[35m[1mPOST /api/process HTTP/1.1[0m" 500 -
+2025-05-10 03:12:55,248 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 03:12:55,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:12:55,272 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 03:13:05,729 - WARNING -  * Debugger is active!
+2025-05-10 03:13:05,731 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 03:13:05,791 - INFO - 127.0.0.1 - - [10/May/2025 03:13:05] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:13:05,824 - INFO - Processing query: protest
+2025-05-10 03:13:05,825 - INFO - Query processing completed in 0.00s
+2025-05-10 03:13:05,825 - INFO - Original query: protest
+2025-05-10 03:13:05,825 - INFO - Search query: protest
+2025-05-10 03:13:05,827 - INFO - Scraping new tweets for query: protest
+2025-05-10 03:13:33,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 03:13:33,891 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:13:33,906 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 03:13:45,173 - WARNING -  * Debugger is active!
+2025-05-10 03:13:45,180 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 03:13:45,253 - INFO - 127.0.0.1 - - [10/May/2025 03:13:45] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:14:38,189 - INFO - 127.0.0.1 - - [10/May/2025 03:14:38] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:14:44,271 - INFO - 127.0.0.1 - - [10/May/2025 03:14:44] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:17:14,834 - INFO - 127.0.0.1 - - [10/May/2025 03:17:14] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:18:55,461 - INFO - 127.0.0.1 - - [10/May/2025 03:18:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:19:44,188 - INFO - 127.0.0.1 - - [10/May/2025 03:19:44] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:19:44,656 - INFO - Processing query: tensions
+2025-05-10 03:19:44,656 - INFO - Query processing completed in 0.00s
+2025-05-10 03:19:44,657 - INFO - Original query: tensions
+2025-05-10 03:19:44,657 - INFO - Search query: tensions
+2025-05-10 03:19:44,660 - INFO - Scraping new tweets for query: tensions
+2025-05-10 03:20:29,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 03:20:29,764 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:20:29,778 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 03:20:39,276 - WARNING -  * Debugger is active!
+2025-05-10 03:20:39,281 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 03:20:39,323 - INFO - 127.0.0.1 - - [10/May/2025 03:20:39] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:20:49,431 - INFO - 127.0.0.1 - - [10/May/2025 03:20:49] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:20:55,831 - INFO - 127.0.0.1 - - [10/May/2025 03:20:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:21:00,953 - INFO - 127.0.0.1 - - [10/May/2025 03:21:00] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:21:09,813 - INFO - 127.0.0.1 - - [10/May/2025 03:21:09] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 03:21:20,584 - INFO - 127.0.0.1 - - [10/May/2025 03:21:20] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:18:10,690 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 07:18:10,692 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 07:18:10,738 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:18:34,070 - WARNING -  * Debugger is active!
+2025-05-10 07:18:34,074 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:19:22,057 - INFO - 127.0.0.1 - - [10/May/2025 07:19:22] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:19:22,567 - INFO - Processing query: israel palestine war
+2025-05-10 07:19:22,568 - INFO - Query processing completed in 0.00s
+2025-05-10 07:19:22,570 - INFO - Original query: israel palestine war
+2025-05-10 07:19:22,570 - INFO - Search query: israel palestine war
+2025-05-10 07:19:22,581 - INFO - Scraping new tweets for query: israel palestine war
+2025-05-10 07:19:26,707 - ERROR - Error in query pipeline: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Learn\IPD\backend\server\server.py", line 110, in process_query_pipeline
+    tweets = run_scraper_for_query(search_query, SCRAPER_USERNAME, SCRAPER_PASSWORD, max_tweets=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Learn\IPD\backend\server\scraper_runner.py", line 17, in run_scraper_for_query
+    scraper.login()
+  File "c:\Learn\IPD\backend\server\scraper_file.py", line 232, in login
+    self.driver.get(TWITTER_LOGIN_URL)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 118, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ranah\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-05-10 07:20:15,214 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 07:20:15,215 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 07:20:15,258 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:20:36,736 - WARNING -  * Debugger is active!
+2025-05-10 07:20:36,747 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:21:22,672 - INFO - 127.0.0.1 - - [10/May/2025 07:21:22] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:21:22,763 - INFO - Processing query: israel palestine war
+2025-05-10 07:21:22,764 - INFO - Query processing completed in 0.00s
+2025-05-10 07:21:22,764 - INFO - Original query: israel palestine war
+2025-05-10 07:21:22,764 - INFO - Search query: israel palestine war
+2025-05-10 07:21:22,768 - INFO - Scraping new tweets for query: israel palestine war
+2025-05-10 07:22:18,161 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 07:22:18,161 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 07:22:18,178 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:22:38,641 - WARNING -  * Debugger is active!
+2025-05-10 07:22:38,652 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:22:42,665 - INFO - 127.0.0.1 - - [10/May/2025 07:22:42] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:22:42,705 - INFO - Processing query: israel palestine war
+2025-05-10 07:22:42,706 - INFO - Query processing completed in 0.00s
+2025-05-10 07:22:42,706 - INFO - Original query: israel palestine war
+2025-05-10 07:22:42,707 - INFO - Search query: israel palestine war
+2025-05-10 07:22:42,708 - INFO - Scraping new tweets for query: israel palestine war
+2025-05-10 07:33:05,722 - INFO - Stored 494 tweets with query_id: 681eb3d9de740dc49f726990
+2025-05-10 07:33:05,722 - INFO - Running relevance prediction...
+2025-05-10 07:33:12,012 - INFO -  * Detected change in 'C:\\Users\\ranah\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\huggingface_hub\\file_download.py', reloading
+2025-05-10 07:33:14,939 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:34:06,920 - WARNING -  * Debugger is active!
+2025-05-10 07:34:06,925 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:46:16,149 - INFO -  * Detected change in 'C:\\Users\\ranah\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-05-10 07:46:18,229 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:46:33,032 - WARNING -  * Debugger is active!
+2025-05-10 07:46:33,036 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:46:49,579 - INFO - 127.0.0.1 - - [10/May/2025 07:46:49] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:46:51,942 - INFO - Processing query: israel palestine war
+2025-05-10 07:46:51,944 - INFO - Query processing completed in 0.00s
+2025-05-10 07:46:51,944 - INFO - Original query: israel palestine war
+2025-05-10 07:46:51,945 - INFO - Search query: israel palestine war
+2025-05-10 07:46:51,949 - INFO - Found existing tweets for query: israel_palestine_war
+2025-05-10 07:46:51,949 - INFO - Running relevance prediction...
+2025-05-10 07:47:05,307 - INFO - Running ideology prediction...
+2025-05-10 07:47:18,242 - INFO - Updated MongoDB with predictions for query_id: 681eb3d9de740dc49f726990
+2025-05-10 07:47:18,244 - INFO - 127.0.0.1 - - [10/May/2025 07:47:18] "POST /api/process HTTP/1.1" 200 -
+2025-05-10 07:50:10,766 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 07:50:10,767 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 07:50:10,769 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 07:50:13,277 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:50:27,558 - WARNING -  * Debugger is active!
+2025-05-10 07:50:27,563 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:50:52,827 - INFO - 127.0.0.1 - - [10/May/2025 07:50:52] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:50:54,370 - INFO - Processing query: israel palestine war
+2025-05-10 07:50:54,370 - INFO - Query processing completed in 0.00s
+2025-05-10 07:50:54,371 - INFO - Original query: israel palestine war
+2025-05-10 07:50:54,371 - INFO - Search query: israel palestine war
+2025-05-10 07:50:54,380 - INFO - Found existing tweets for query: israel_palestine_war
+2025-05-10 07:50:54,380 - INFO - Running relevance prediction...
+2025-05-10 07:51:08,834 - INFO - Running ideology prediction...
+2025-05-10 07:51:21,021 - INFO - Updated MongoDB with predictions for query_id: 681eb3d9de740dc49f726990
+2025-05-10 07:51:21,023 - INFO - 127.0.0.1 - - [10/May/2025 07:51:21] "POST /api/process HTTP/1.1" 200 -
+2025-05-10 07:52:36,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 07:52:36,747 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 07:52:36,767 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 07:52:51,483 - WARNING -  * Debugger is active!
+2025-05-10 07:52:51,485 - INFO -  * Debugger PIN: 410-229-750
+2025-05-10 07:52:55,520 - INFO - 127.0.0.1 - - [10/May/2025 07:52:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 07:52:56,741 - INFO - Processing query: israel palestine war
+2025-05-10 07:52:56,741 - INFO - Query processing completed in 0.00s
+2025-05-10 07:52:56,741 - INFO - Original query: israel palestine war
+2025-05-10 07:52:56,742 - INFO - Search query: israel palestine war
+2025-05-10 07:52:56,746 - INFO - Found existing tweets for query: israel_palestine_war
+2025-05-10 07:52:56,747 - INFO - Running relevance prediction...
+2025-05-10 07:53:08,198 - INFO - Running ideology prediction...
+2025-05-10 07:53:20,084 - INFO - Updated MongoDB with predictions for query_id: 681eb3d9de740dc49f726990
+2025-05-10 07:59:05,295 - INFO - 127.0.0.1 - - [10/May/2025 07:59:05] "POST /api/process HTTP/1.1" 200 -
+2025-05-10 08:06:59,724 - INFO - 127.0.0.1 - - [10/May/2025 08:06:59] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 08:07:00,623 - INFO - Processing query: israel palestine war
+2025-05-10 08:07:00,624 - INFO - Query processing completed in 0.00s
+2025-05-10 08:07:00,625 - INFO - Original query: israel palestine war
+2025-05-10 08:07:00,625 - INFO - Search query: israel palestine war
+2025-05-10 08:07:00,632 - INFO - Found existing tweets for query: israel_palestine_war
+2025-05-10 08:07:00,633 - INFO - Running relevance prediction...
+2025-05-10 08:48:22,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 08:48:22,530 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 08:48:22,575 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 08:48:34,878 - WARNING -  * Debugger is active!
+2025-05-10 08:48:34,881 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 08:48:47,432 - INFO - 127.0.0.1 - - [10/May/2025 08:48:47] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 08:49:04,221 - INFO - 127.0.0.1 - - [10/May/2025 08:49:04] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 08:49:08,983 - INFO - Processing query: protest
+2025-05-10 08:49:08,984 - INFO - Query processing completed in 0.00s
+2025-05-10 08:49:08,984 - INFO - Original query: protest
+2025-05-10 08:49:08,984 - INFO - Search query: protest
+2025-05-10 08:49:08,993 - INFO - Scraping new tweets for query: protest
+2025-05-10 08:54:40,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 08:54:40,280 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 08:54:40,305 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 08:54:53,952 - WARNING -  * Debugger is active!
+2025-05-10 08:54:53,957 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 09:01:02,162 - INFO - 127.0.0.1 - - [10/May/2025 09:01:02] "POST /api/search-topic HTTP/1.1" 200 -

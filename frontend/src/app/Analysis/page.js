@@ -1,97 +1,273 @@
 // app/page.js
 'use client';
+
 import { useState, useEffect } from "react";
+import { useSearchParams } from 'next/navigation';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import LiveNewsSection from "./Components/LiveNewsSection";
 
 export default function AnalysisPage() {
-  const [historicalAnalysis, setHistoricalAnalysis] = useState("");
+  const [topicData, setTopicData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedLeaning, setSelectedLeaning] = useState('left');
+  const [historicalAnalysis, setHistoricalAnalysis] = useState('');
+  const searchParams = useSearchParams();
 
   useEffect(() => {
-    const fetchAnalysis = async () => {
+    const fetchData = async () => {
       try {
         setLoading(true);
         setError(null);
+        const topicId = searchParams.get('topic');
 
-        console.log("Fetching analysis...");
-        const response = await fetch("/api/auth/historical-analysis");
-        console.log("Response status:", response.status);
-
-        if (!response.ok) {
-          const errorData = await response.json().catch(() => ({}));
-          throw new Error(
-            errorData.error || `HTTP error! status: ${response.status}`
-          );
+        if (topicId) {
+          const response = await fetch(`/api/auth/topics/${topicId}`);
+          const data = await response.json();
+          if (data.topic) {
+            setTopicData(data.topic);
+          }
         }
-
-        const data = await response.json();
-        console.log("Received data:", data);
-
-        if (!data.analysis) {
-          throw new Error("No analysis data received");
-        }
-
-        setHistoricalAnalysis(data.analysis);
       } catch (err) {
-        console.error("Error fetching analysis:", err);
+        console.error("Error fetching data:", err);
         setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchAnalysis();
-  }, []);
+    fetchData();
+  }, [searchParams]);
+
+  useEffect(() => {
+    const fetchHistoricalAnalysis = async () => {
+      try {
+        if (!topicData?.query) return;
+
+        const response = await fetch(`/api/auth/historical-analysis?query=${encodeURIComponent(topicData.query)}`);
+        const data = await response.json();
+        if (data.analysis) {
+          setHistoricalAnalysis(data.analysis);
+        }
+      } catch (error) {
+        console.error('Failed to fetch historical analysis:', error);
+      }
+    };
+
+    fetchHistoricalAnalysis();
+  }, [topicData?.query]);
+
+  const getFilteredTweets = (leaning) => {
+    if (!topicData?.tweets) return [];
+    return topicData.tweets.filter(tweet => tweet.leaning.toLowerCase() === leaning);
+  };
+
+  const getTweetCount = (leaning) => {
+    if (!topicData?.tweets) return 0;
+    return topicData.tweets.filter(tweet => tweet.leaning.toLowerCase() === leaning).length;
+  };
+
+  const TweetCard = ({ tweet }) => (
+    <Card className="mb-4 hover:shadow-lg transition-shadow">
+      <CardHeader className="pb-2">
+        <div className="flex items-center gap-3">
+          <img
+            src={tweet["Profile Image"]}
+            alt={tweet.Name}
+            className="w-10 h-10 rounded-full"
+          />
+          <div>
+            <div className="font-semibold text-[#112D4E]">{tweet.Name}</div>
+            <div className="text-sm text-gray-500">{tweet.Handle}</div>
+          </div>
+          {tweet.Verified && (
+            <span className="ml-1 text-blue-500">✓</span>
+          )}
+        </div>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#3F72AF] mb-3">{tweet.Content}</p>
+        <div className="flex gap-6 text-sm text-gray-500">
+          <span>💬 {tweet.Comments}</span>
+          <span>🔄 {tweet.Retweets}</span>
+          <span>❤️ {tweet.Likes}</span>
+        </div>
+        {Array.isArray(tweet.Tags) && tweet.Tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-3">
+            {tweet.Tags.map((tag, idx) => (
+              <span
+                key={idx}
+                className="text-xs bg-[#DBE2EF] text-[#3F72AF] px-2 py-1 rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+
+  const getSummaryForLeaning = (leaning) => {
+    if (!topicData?.ideological_summaries) return null;
+    return topicData.ideological_summaries[leaning] || `No summary available for ${leaning}-leaning tweets. This could be due to insufficient data or processing in progress.`;
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-[#F9F7F7]">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#3F72AF]"></div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-[#F9F7F7]">
+        <Card className="p-6">
+          <CardTitle className="text-red-500 mb-4">Error</CardTitle>
+          <CardDescription>{error}</CardDescription>
+        </Card>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-[#F9F7F7] p-8 flex flex-col lg:flex-row gap-4">
-      {/* Left Side: Classification */}
-      <div className="flex-1 bg-white rounded-lg shadow-lg p-6">
-        <h2 className="text-2xl font-semibold text-[#112D4E] mb-4">
-          Classification
-        </h2>
-        <p className="text-[#3F72AF]">
-          This is the classification section. Add your content related to
-          classification here.
-        </p>
-      </div>
+    <div className="min-h-screen bg-[#F9F7F7] p-8">
+      <div className="max-w-7xl mx-auto">
+        <h1 className="text-4xl font-bold text-[#112D4E] mb-8">{topicData?.query || 'Analysis'}</h1>
 
-      {/* Right Side: Historical Analysis and Live News Channel */}
-      <div className="flex flex-col gap-4 w-full lg:w-1/3">
-        {/* Top Right: Historical Analysis */}
-        <div className="flex-1 bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-semibold text-[#112D4E] mb-4">
-            Historical Analysis
-          </h2>
-
-          <div className="text-[#3F72AF]">
-            {loading && (
-              <div className="flex items-center justify-center p-4">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#3F72AF]"></div>
-              </div>
-            )}
-            {error && (
-              <div className="text-red-600 p-4">
-                <p>Error: {error}</p>
-                <button
-                  onClick={() => window.location.reload()}
-                  className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        {/* Classification Section */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="text-2xl text-[#112D4E]">Tweet Classification</CardTitle>
+            <CardDescription>
+              Analyze tweets based on their political leaning
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Tabs defaultValue="left" className="w-full" onValueChange={setSelectedLeaning}>
+              <TabsList className="grid w-full grid-cols-3 mb-6">
+                <TabsTrigger
+                  value="left"
+                  className="data-[state=active]:bg-blue-500 data-[state=active]:text-white"
                 >
-                  Retry
-                </button>
-              </div>
-            )}
-            {!loading && !error && historicalAnalysis && (
-              <div className="whitespace-pre-line">{historicalAnalysis}</div>
-            )}
-          </div>
-        </div>
+                  Left ({getTweetCount('left')})
+                </TabsTrigger>
+                <TabsTrigger
+                  value="centre"
+                  className="data-[state=active]:bg-purple-500 data-[state=active]:text-white"
+                >
+                  Centre ({getTweetCount('centre')})
+                </TabsTrigger>
+                <TabsTrigger
+                  value="right"
+                  className="data-[state=active]:bg-red-500 data-[state=active]:text-white"
+                >
+                  Right ({getTweetCount('right')})
+                </TabsTrigger>
+              </TabsList>
 
-        {/* Bottom Right: Live News Channel */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <LiveNewsSection />
-        </div>
+              <TabsContent value="left">
+                <Card className="mb-4 bg-blue-50">
+                  <CardContent className="pt-6">
+                    <p className="text-[#3F72AF] italic">{getSummaryForLeaning('left')}</p>
+                  </CardContent>
+                </Card>
+                <ScrollArea className="h-[600px]">
+                  {getFilteredTweets('left').map((tweet, index) => (
+                    <TweetCard key={index} tweet={tweet} />
+                  ))}
+                  {getFilteredTweets('left').length === 0 && (
+                    <div className="text-center text-gray-500 py-8">
+                      No left-leaning tweets found
+                    </div>
+                  )}
+                </ScrollArea>
+              </TabsContent>
+
+              <TabsContent value="centre">
+                <Card className="mb-4 bg-purple-50">
+                  <CardContent className="pt-6">
+                    <p className="text-[#3F72AF] italic">{getSummaryForLeaning('centre')}</p>
+                  </CardContent>
+                </Card>
+                <ScrollArea className="h-[600px]">
+                  {getFilteredTweets('centre').map((tweet, index) => (
+                    <TweetCard key={index} tweet={tweet} />
+                  ))}
+                  {getFilteredTweets('centre').length === 0 && (
+                    <div className="text-center text-gray-500 py-8">
+                      No centre-leaning tweets found
+                    </div>
+                  )}
+                </ScrollArea>
+              </TabsContent>
+
+              <TabsContent value="right">
+                <Card className="mb-4 bg-red-50">
+                  <CardContent className="pt-6">
+                    <p className="text-[#3F72AF] italic">{getSummaryForLeaning('right')}</p>
+                  </CardContent>
+                </Card>
+                <ScrollArea className="h-[600px]">
+                  {getFilteredTweets('right').map((tweet, index) => (
+                    <TweetCard key={index} tweet={tweet} />
+                  ))}
+                  {getFilteredTweets('right').length === 0 && (
+                    <div className="text-center text-gray-500 py-8">
+                      No right-leaning tweets found
+                    </div>
+                  )}
+                </ScrollArea>
+              </TabsContent>
+            </Tabs>
+          </CardContent>
+        </Card>
+
+        {/* Historical Analysis Section */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="text-2xl text-[#112D4E]">Historical Analysis</CardTitle>
+            <CardDescription>
+              Historical context and development of the topic
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="prose prose-blue max-w-none">
+              {historicalAnalysis ? (
+                <div className="whitespace-pre-line text-[#3F72AF]">
+                  {historicalAnalysis}
+                </div>
+              ) : (
+                <div className="flex justify-center items-center py-8">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#3F72AF]"></div>
+                </div>
+              )}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Live News Feed Section */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="text-2xl text-[#112D4E]">Live News Feed</CardTitle>
+            <CardDescription>
+              Latest news and updates related to this topic
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <LiveNewsSection query={topicData?.query} />
+          </CardContent>
+        </Card>
       </div>
     </div>
   );

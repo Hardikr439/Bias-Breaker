@@ -1,0 +1,44 @@
+2025-05-10 02:34:45,428 - WARNING -  * Debugger is active!
+2025-05-10 02:34:45,431 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:39:16,758 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:39:16,760 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:39:16,761 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:39:33,284 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5500
+2025-05-10 02:39:33,284 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:39:33,298 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:39:43,264 - WARNING -  * Debugger is active!
+2025-05-10 02:39:43,268 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:39:55,381 - INFO - 127.0.0.1 - - [10/May/2025 02:39:55] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:39:55,883 - INFO - 127.0.0.1 - - [10/May/2025 02:39:55] "POST /api/process HTTP/1.1" 200 -
+2025-05-10 02:42:53,617 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:42:53,619 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:42:55,426 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:43:05,140 - WARNING -  * Debugger is active!
+2025-05-10 02:43:05,143 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:43:06,503 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\predict_pipeline.py', reloading
+2025-05-10 02:43:08,542 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:43:17,557 - WARNING -  * Debugger is active!
+2025-05-10 02:43:17,561 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:43:33,157 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:43:33,158 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:43:33,158 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:43:35,263 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:43:45,286 - WARNING -  * Debugger is active!
+2025-05-10 02:43:45,289 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:44:37,307 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:44:37,309 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:44:37,309 - INFO -  * Detected change in 'c:\\Learn\\IPD\\backend\\server\\server.py', reloading
+2025-05-10 02:44:39,324 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-10 02:44:49,357 - WARNING -  * Debugger is active!
+2025-05-10 02:44:49,360 - INFO -  * Debugger PIN: 566-772-636
+2025-05-10 02:46:45,243 - INFO - 127.0.0.1 - - [10/May/2025 02:46:45] "GET /api/topics/681a53a204a8ea7e2a5c9df1 HTTP/1.1" 200 -
+2025-05-10 02:46:45,498 - INFO - 127.0.0.1 - - [10/May/2025 02:46:45] "GET /api/topics/681a53a204a8ea7e2a5c9df1 HTTP/1.1" 200 -
+2025-05-10 02:48:56,898 - INFO - 127.0.0.1 - - [10/May/2025 02:48:56] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:49:15,907 - INFO - 127.0.0.1 - - [10/May/2025 02:49:15] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:49:28,826 - INFO - 127.0.0.1 - - [10/May/2025 02:49:28] "POST /api/search-topic HTTP/1.1" 200 -
+2025-05-10 02:49:29,278 - INFO - Processing query: protest
+2025-05-10 02:49:29,279 - INFO - Query processing completed in 0.00s
+2025-05-10 02:49:29,279 - INFO - Original query: protest
+2025-05-10 02:49:29,280 - INFO - Search query: protest
+2025-05-10 02:49:29,281 - INFO - Scraping new tweets for query: protest

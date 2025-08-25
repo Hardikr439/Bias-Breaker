@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Clock, RefreshCcw } from 'lucide-react';
 
-const LiveNewsSection = () => {
+const LiveNewsSection = ({ query }) => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -11,32 +11,31 @@ const LiveNewsSection = () => {
   const fetchNews = async () => {
     try {
       setLoading(true);
-      console.log('Initiating news fetch...');
-      
-      const response = await fetch('/api/auth/newsapi');
+      console.log('Initiating news fetch for:', query);
+
+      const response = await fetch(`/api/auth/newsapi?query=${encodeURIComponent(query)}`);
       console.log('Response status:', response.status);
-      console.log('Response headers:', Object.fromEntries(response.headers));
-      
+
       if (!response.ok) {
         const errorText = await response.text();
         console.error('Error response body:', errorText);
-        
+
         let parsedError;
         try {
           parsedError = JSON.parse(errorText);
         } catch (e) {
           console.error('Failed to parse error response:', e);
         }
-        
+
         throw new Error(
-          parsedError?.error || 
+          parsedError?.error ||
           `Failed to fetch news: ${response.status} ${response.statusText}`
         );
       }
 
       const data = await response.json();
       console.log('Received news data:', data);
-      
+
       if (!data.news || !Array.isArray(data.news)) {
         console.error('Invalid news data format:', data);
         throw new Error('Invalid news data format received');
@@ -55,15 +54,16 @@ const LiveNewsSection = () => {
   };
 
   useEffect(() => {
-    fetchNews();
-    const interval = setInterval(fetchNews, 60 * 60 * 1000);
-    return () => clearInterval(interval);
-  }, []);
+    if (query) {
+      fetchNews();
+      const interval = setInterval(fetchNews, 60 * 60 * 1000); // Refresh every hour
+      return () => clearInterval(interval);
+    }
+  }, [query]);
 
   const formatTime = (date) => {
     const now = new Date();
     const diff = Math.floor((now - new Date(date)) / 1000 / 60);
-    
     if (diff < 1) return 'Just now';
     if (diff < 60) return `${diff}m ago`;
     if (diff < 1440) return `${Math.floor(diff / 60)}h ago`;
@@ -81,7 +81,7 @@ const LiveNewsSection = () => {
             <Clock className="w-4 h-4 mr-1" />
             Updated {formatTime(lastUpdated)}
           </span>
-          <button 
+          <button
             onClick={fetchNews}
             className="flex items-center hover:text-[#112D4E] transition-colors"
           >
@@ -110,7 +110,7 @@ const LiveNewsSection = () => {
 
       <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2">
         {news.map((item, index) => (
-          <div 
+          <div
             key={index}
             className="flex flex-col sm:flex-row gap-4 p-4 border border-gray-100 rounded-lg hover:bg-gray-50 transition-colors"
           >
@@ -126,7 +126,7 @@ const LiveNewsSection = () => {
                 />
               </div>
             )}
-            
+
             <div className="flex-1 min-w-0">
               <div className="flex justify-between items-start mb-2">
                 <span className="inline-block px-2 py-1 text-xs font-medium bg-[#DBE2EF] text-[#112D4E] rounded">
@@ -136,15 +136,15 @@ const LiveNewsSection = () => {
                   {formatTime(item.publishedAt)}
                 </span>
               </div>
-              
+
               <h3 className="text-[#112D4E] font-medium mb-2 line-clamp-2">
                 {item.title}
               </h3>
-              
+
               <p className="text-[#3F72AF] text-sm mb-2 line-clamp-2">
                 {item.description}
               </p>
-              
+
               <a
                 href={item.url}
                 target="_blank"
